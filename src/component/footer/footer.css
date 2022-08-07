@@ -1,0 +1,41 @@
+.footer{
+    background: rgb(39, 36, 36);
+    color: white;
+    height: 25vh;
+    font-size: 16px;
+    display: flex;
+    text-align: center ;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer-icons{
+    display: flex;
+    text-align: center ;
+    justify-content: center;
+
+}
+.f-head{
+    height: 6vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.ficons{
+    color: white;
+    margin: 20px 15px;
+
+}
+.f-link{
+    color: white;
+    text-decoration:none ;
+}
+@media screen and (max-width:480px)
+{
+    .footer{
+        height:25vh;
+        margin-top:50px;
+
+    }
+}
