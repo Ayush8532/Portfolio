@@ -1,6 +1,8 @@
 import React from 'react'
 import './intro.css'
-import Me from '../../img/my.png' 
+import Me from '../../img/my.png'
+import Typewriter from "typewriter-effect";
+
 
 const Intro = () => {
     return (
@@ -10,15 +12,28 @@ const Intro = () => {
                     <div className="i-left-wrapper">
                         <h2 className='i-intro'>Hi, I'am</h2>
                         <h1 className='i-name'>Ayush Uniyal</h1>
-                        <div className="i-title">
-                            <div className="i-title-wrapper">
-                                <div className="i-title-item">Web Developer</div>
-                                <div className="i-title-item">Engineer</div>
-                                <div className="i-title-item">UI/UX Designer</div>
-                            </div>
+                        <div className="i-title"> <Typewriter
+
+                            onInit={(typewriter) => {
+
+                                typewriter
+
+                                    .typeString("Web Developer")
+
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("UI/UX Designer")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("Engineer")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .start()
+                            }}
+                        />
                         </div>
                         <p className="i-desc">
-                        I'm A Web Developer / Designer Based In Karanprayag, Uttarakhand. I Have A Passion For Web Development And Love To Create For Web.
+                            I'm A Web Developer / Designer Based In Karanprayag, Uttarakhand. I Have A Passion For Web Development And Love To Create For Web.
                         </p>
                     </div>
                 </div>

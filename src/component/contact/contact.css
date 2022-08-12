@@ -67,6 +67,8 @@ textarea{
     font-size: 14px;
     padding-left: 10px;
     outline: none;
+    background: none;
+    color: white;
 }
 button{
     text-decoration: none;
