@@ -1,7 +1,6 @@
 import React from 'react'
 import './intro.css'
 import Me from '../../img/my.png'
-import Typewriter from "typewriter-effect";
 
 
 const Intro = () => {
@@ -12,25 +11,8 @@ const Intro = () => {
                     <div className="i-left-wrapper">
                         <h2 className='i-intro'>Hi, I'am</h2>
                         <h1 className='i-name'>Ayush Uniyal</h1>
-                        <div className="i-title"> <Typewriter
-
-                            onInit={(typewriter) => {
-
-                                typewriter
-
-                                    .typeString("Web Developer")
-
-                                    .pauseFor(1000)
-                                    .deleteAll()
-                                    .typeString("UI/UX Designer")
-                                    .pauseFor(1000)
-                                    .deleteAll()
-                                    .typeString("Engineer")
-                                    .pauseFor(1000)
-                                    .deleteAll()
-                                    .start()
-                            }}
-                        />
+                        <div className="i-title">
+                            <span className='title_type'>Web Developer</span>
                         </div>
                         <p className="i-desc">
                             I'm A Web Developer / Designer Based In Karanprayag, Uttarakhand. I Have A Passion For Web Development And Love To Create For Web.

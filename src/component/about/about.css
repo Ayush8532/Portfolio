@@ -13,7 +13,13 @@
     text-align: center;
     color: white;
 }
-
+a{
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    color: white;
+}
 .a-left{
     flex: 1;
      display: flex;
@@ -83,10 +89,10 @@
 
 }
 .a-download:hover{
-    background-color: white;
-    color: cadetblue;
+    background-color: cadetblue;
+    color: white;
     border: 1px solid cadetblue;
-
+    font-weight: 200;
 
 }
 @media screen and (max-width:480px)

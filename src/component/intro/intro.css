@@ -34,6 +34,33 @@
     height:40px;
     overflow: hidden;
 }
+.title_type{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #f9d566;
+    width: 0;
+    overflow: hidden;
+    white-space: no-wrap;
+    display:block;
+    border-right: 3px solid #f9d566;
+    animation: typewriter 5s steps(7) infinite, blinking-cursor 0.8s infinite;
+    animation-fill-mode: forwards
+  }
+  @keyframes typewriter {
+    0% { width:0 }
+    25% { width: 70% }
+    48% { width: 100% }
+    50% { width: 100% }
+    55% { width: 100% }
+    75% { width: 70%; }
+    85% { width: 30%; }
+    100% { width: 0; }
+  }
+  
+  @keyframes blinking-cursor {
+    from { border-color: transparent }
+    to { border-color: #f9d566 }
+  }
 .i-desc{
     font-size: 16px;
 }
