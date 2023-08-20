@@ -1,0 +1,118 @@
+.a{
+    height: 100% ;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.contain{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    color: white;
+}
+.a-left{
+    flex: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     height: 100%;
+
+}
+.a-right{
+    flex: 1;
+    margin-right: 20px;
+}
+
+.a-card{
+    width: 70%;
+    height: 60vh;
+    border: 30px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;   
+    background-color: #333;
+}
+.a-img{
+    margin: 10px 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a-title{
+    font-weight: 500;
+}
+
+.a-sub{
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.a-desc{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 18px;
+    text-align: justify;
+
+}
+.a-under{
+    background: cadetblue;
+    height: 4px;
+    width: 10%;
+    border-radius: 2px;
+
+}
+.a-download{
+    text-decoration: none;
+    background-color:cadetblue;
+    margin: 15px 13px;
+    padding: 13px 13px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.a-download:hover{
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid cadetblue;
+    font-weight: 200;
+
+}
+@media screen and (max-width:480px)
+{
+    .a{
+        flex-direction: column;
+        padding:15px;
+    }
+    .a-card{
+        width:100%;
+        height:40vh;
+    }
+    .a-right{
+        margin-right: 0;
+    }
+    .a-sub{
+        margin: 20px 85px;
+    }
+    .a-under{
+        width: 30%;
+    }
+
+}

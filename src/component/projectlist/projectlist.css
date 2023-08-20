@@ -1,0 +1,46 @@
+.pl{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.pl-texts{
+    width: 65%;
+}
+.pl-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.p-under{
+    background: cadetblue;
+    height: 4px;
+    width: 20%;
+    margin-top: 5px;
+    margin-right: 80px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:480px)
+{
+    .pl{
+        padding: 15px 30px;
+    }
+    .pl-texts{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .p-under{
+        width:55%;
+        margin-right:0;
+        margin-left:5px;
+  
+      }
+}
